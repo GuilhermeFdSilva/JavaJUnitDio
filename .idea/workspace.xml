@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afa3219e-fec1-4d64-991f-a7825881d243" name="Changes" comment="First Commit">
-      <change beforePath="$PROJECT_DIR$/src/br/com/dio/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/main/BancoDeDados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/teste/ConsultarDadosDePessoaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dio/teste/PessoaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/teste/PessoaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,31 +59,80 @@
       <recent name="br.com.dio" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PessoaTest.validarCalculoDeIdade">
-    <configuration name="Pessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.dio.Pessoa" />
+  <component name="RunManager" selected="JUnit.ConsultarDadosDePessoaTest">
+    <configuration name="ConsultarDadosDePessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.dio.*" />
+          <option name="PATTERN" value="br.com.dio.teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="br.com.dio.teste" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.teste.ConsultarDadosDePessoaTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PessoaTest.validarCalculoDeIdade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsultarDadosDePessoaTest.validarDadosDeRetorno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaJUnit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.dio.*" />
+          <option name="PATTERN" value="br.com.dio.teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.dio" />
-      <option name="MAIN_CLASS_NAME" value="br.com.dio.PessoaTest" />
-      <option name="METHOD_NAME" value="validarCalculoDeIdade" />
+      <option name="PACKAGE_NAME" value="br.com.dio.teste" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.teste.ConsultarDadosDePessoaTest" />
+      <option name="METHOD_NAME" value="validarDadosDeRetorno" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.dio.teste" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.teste.PessoaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PessoaTest.validarLancamentos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.dio.teste" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.teste.PessoaTest" />
+      <option name="METHOD_NAME" value="validarLancamentos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PessoaTest.validarSeMaiorDeIdade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.dio.teste" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.teste.PessoaTest" />
+      <option name="METHOD_NAME" value="validarSeMaiorDeIdade" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,8 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PessoaTest.validarCalculoDeIdade" />
-        <item itemvalue="Application.Pessoa" />
+        <item itemvalue="JUnit.ConsultarDadosDePessoaTest" />
+        <item itemvalue="JUnit.ConsultarDadosDePessoaTest.validarDadosDeRetorno" />
+        <item itemvalue="JUnit.PessoaTest" />
+        <item itemvalue="JUnit.PessoaTest.validarLancamentos" />
+        <item itemvalue="JUnit.PessoaTest.validarSeMaiorDeIdade" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665154463620</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First Commit">
+      <created>1665155081781</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665155081781</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
