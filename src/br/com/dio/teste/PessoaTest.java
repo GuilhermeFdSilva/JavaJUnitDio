@@ -1,5 +1,6 @@
-package br.com.dio;
+package br.com.dio.teste;
 
+import br.com.dio.main.Pessoa;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
