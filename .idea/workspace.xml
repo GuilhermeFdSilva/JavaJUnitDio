@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afa3219e-fec1-4d64-991f-a7825881d243" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/src/br/com/dio/main/BancoDeDados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/dio/teste/ConsultarDadosDePessoaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/main/TransferenciaEntreContas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/teste/CondicionaisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/teste/ExeptionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/teste/OrdenandoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dio/teste/PessoaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/teste/PessoaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dio/main/BancoDeDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/main/BancoDeDados.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -35,22 +40,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "C:/Users/franc/IdeaProjects/JavaJUnit",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/franc/IdeaProjects/JavaJUnit&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -59,8 +64,8 @@
       <recent name="br.com.dio" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConsultarDadosDePessoaTest">
-    <configuration name="ConsultarDadosDePessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OrdenandoTest">
+    <configuration name="CondicionaisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaJUnit" />
       <extension name="coverage">
         <pattern>
@@ -69,13 +74,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.dio.teste" />
-      <option name="MAIN_CLASS_NAME" value="br.com.dio.teste.ConsultarDadosDePessoaTest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.teste.CondicionaisTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsultarDadosDePessoaTest.validarDadosDeRetorno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExeptionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaJUnit" />
       <extension name="coverage">
         <pattern>
@@ -84,29 +89,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.dio.teste" />
-      <option name="MAIN_CLASS_NAME" value="br.com.dio.teste.ConsultarDadosDePessoaTest" />
-      <option name="METHOD_NAME" value="validarDadosDeRetorno" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.dio.teste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.dio.teste" />
-      <option name="MAIN_CLASS_NAME" value="br.com.dio.teste.PessoaTest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.teste.ExeptionsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PessoaTest.validarLancamentos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExeptionsTest.ValidarSenarioDeExeption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaJUnit" />
       <extension name="coverage">
         <pattern>
@@ -115,14 +104,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.dio.teste" />
-      <option name="MAIN_CLASS_NAME" value="br.com.dio.teste.PessoaTest" />
-      <option name="METHOD_NAME" value="validarLancamentos" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.teste.ExeptionsTest" />
+      <option name="METHOD_NAME" value="ValidarSenarioDeExeption" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PessoaTest.validarSeMaiorDeIdade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExeptionsTest.ValidarSenarioDeExeption1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaJUnit" />
       <extension name="coverage">
         <pattern>
@@ -131,20 +120,35 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.dio.teste" />
-      <option name="MAIN_CLASS_NAME" value="br.com.dio.teste.PessoaTest" />
-      <option name="METHOD_NAME" value="validarSeMaiorDeIdade" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.teste.ExeptionsTest" />
+      <option name="METHOD_NAME" value="ValidarSenarioDeExeption1" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdenandoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.dio.teste" />
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.teste.OrdenandoTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConsultarDadosDePessoaTest" />
-        <item itemvalue="JUnit.ConsultarDadosDePessoaTest.validarDadosDeRetorno" />
-        <item itemvalue="JUnit.PessoaTest" />
-        <item itemvalue="JUnit.PessoaTest.validarLancamentos" />
-        <item itemvalue="JUnit.PessoaTest.validarSeMaiorDeIdade" />
+        <item itemvalue="JUnit.OrdenandoTest" />
+        <item itemvalue="JUnit.ExeptionsTest.ValidarSenarioDeExeption1" />
+        <item itemvalue="JUnit.ExeptionsTest.ValidarSenarioDeExeption" />
+        <item itemvalue="JUnit.ExeptionsTest" />
+        <item itemvalue="JUnit.CondicionaisTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665155081781</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First Commit">
+      <created>1665168764757</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665168764759</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
